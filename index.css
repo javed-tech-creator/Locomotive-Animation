@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(76, 71, 71);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+}
+#txt{
+    line-height: 40px;
+    color:rgb(0, 0, 0);
+    width: 500px;
+    font-size: large;
+}
+b{
+    font-size: 40px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+.sec1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(230, 229, 229);
+   
+}
+.sec2{
+    height:100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(221, 218, 216);
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://th.bing.com/th/id/OIP.XUf1eRM44Skqa8nbe2gmqgHaLG?rs=1&pid=ImgDetMain);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(74, 57, 161);
+    background-image: url(https://www.quoteambition.com/wp-content/uploads/2017/04/meaningful-quotes-peaceful.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(35, 108, 35);
+    background-image: url(https://th.bing.com/th/id/OIP.rYx-rjs4A0kaeaO0zdkOHQHaHa?w=1080&h=1080&rs=1&pid=ImgDetMain);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
